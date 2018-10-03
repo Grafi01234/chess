@@ -1,4 +1,4 @@
-package com.example.chess.Gra;
+package com.example.chess.Game;
 
 public enum Color {
     WHITE, BLACK
