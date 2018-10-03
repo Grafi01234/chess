@@ -1,4 +1,4 @@
-package com.example.chess;
+package com.example.chess.Gra;
 
 /**
  * Pieces types are stored as constans

@@ -1,7 +1,7 @@
 package com.example.chess.Piece;
 
-import com.example.chess.Player;
-import com.example.chess.Type;
+import com.example.chess.Gra.Player;
+import com.example.chess.Gra.Type;
 
 public class Wieża extends Piece {
 
