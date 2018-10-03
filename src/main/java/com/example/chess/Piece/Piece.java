@@ -5,7 +5,7 @@ import com.example.chess.Game.Player;
 public abstract class Piece {
     public int m_x, m_y;
     public Player m_player;
-
+    private boolean available;
 
     /**
      * Constructor for Piece
@@ -31,6 +31,30 @@ public abstract class Piece {
      */
 
     public abstract boolean isValidPath(int finalX, int finalY);
+
+    public boolean isAvailable() {
+        return available;
+    }
+
+    public void setAvailable(boolean available) {
+        this.available = available;
+    }
+
+    public int getX() {
+        return m_x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
 }
 
 
