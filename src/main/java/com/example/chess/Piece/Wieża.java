@@ -24,7 +24,7 @@ public class Wieża extends Piece {
     }
 
     @Override
-    public boolean isPValidPath(int finalX, int finalY) {
+    public boolean isValidPath(int finalX, int finalY) {
         return false;
     }
 }

@@ -30,7 +30,7 @@ public abstract class Piece {
      * @return a boolean indicationg whather the path is valid
      */
 
-    public abstract boolean isPValidPath(int finalX, int finalY);
+    public abstract boolean isValidPath(int finalX, int finalY);
 }
 
 
