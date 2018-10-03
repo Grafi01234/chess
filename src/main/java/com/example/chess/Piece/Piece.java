@@ -1,4 +1,6 @@
-package com.example.chess;
+package com.example.chess.Piece;
+
+import com.example.chess.Player;
 
 public abstract class Piece {
     public int m_x, m_y;

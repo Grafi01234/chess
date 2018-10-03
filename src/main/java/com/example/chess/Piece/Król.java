@@ -1,4 +1,7 @@
-package com.example.chess;
+package com.example.chess.Piece;
+
+import com.example.chess.Player;
+import com.example.chess.Type;
 
 public class Król extends Piece {
 
@@ -12,7 +15,7 @@ public class Król extends Piece {
      * @param player dla przypisanego gracza do Króla
      */
     public Król(int x, int y, Player player) {
-        super(x, y, Player);
+        super(x, y, player);
         type = Type.KRÓL;
     }
 
@@ -22,6 +25,6 @@ public class Król extends Piece {
 
     @Override
     public boolean isPValidPath(int finalX, int finalY) {
-
+        return false;
     }
 }
