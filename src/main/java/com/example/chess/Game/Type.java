@@ -5,5 +5,22 @@ package com.example.chess.Game;
  */
 
 public enum Type {
-    PAWN, KING, QUEEN, KNIGHT, ROOK, BISHOP
+    PAWN("P", "Z"),
+    KING("K", ""),
+    QUEEN("Q", ""),
+    KNIGHT("K", ""),
+    ROOK("", ""),
+    BISHOP("", "");
+
+    private final String whiteIcon;
+    private final String blackIcon;
+
+    Type(String whiteIcon, String blackIcon) {
+        this.whiteIcon = whiteIcon;
+        this.blackIcon = blackIcon;
+    }
+
+    public String getIcon(Color color) {
+        return color == Color.WHITE ? whiteIcon : blackIcon;
+    }
 }

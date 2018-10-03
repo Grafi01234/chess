@@ -1,10 +1,11 @@
 package com.example.chess.Piece;
 
 import com.example.chess.Game.Player;
+import com.example.chess.Game.Type;
 
 public abstract class Piece {
-    public int m_x, m_y;
-    public Player m_player;
+    private int x, y;
+    private Player player;
     private boolean available;
 
     /**
@@ -16,9 +17,9 @@ public abstract class Piece {
      */
 
     public Piece(int x, int y, Player player) {
-        m_x = x;
-        m_y = y;
-        m_player = player;
+        this.x = x;
+        this.y = y;
+        this.player = player;
 
     }
 
@@ -41,7 +42,7 @@ public abstract class Piece {
     }
 
     public int getX() {
-        return m_x;
+        return x;
     }
 
     public void setX(int x) {
@@ -55,6 +56,8 @@ public abstract class Piece {
     public void setY(int y) {
         this.y = y;
     }
+
+    public abstract Type getType();
 }
 
 
