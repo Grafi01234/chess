@@ -5,6 +5,7 @@ public class Game {
         Board board = new Board();
         Spot spot;
 
+
         for (int i = 0; i < 8; i++) {
             System.out.println();
 
@@ -13,6 +14,6 @@ public class Game {
                 spot.printSpotLocation();
             }
         }
-        board.
+
     }
 }

@@ -16,6 +16,4 @@ class Board {
         return spots[x][y];
     }
 
-    Spot
-
 }

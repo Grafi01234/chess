@@ -1,5 +1,6 @@
 package com.example.chess.Piece;
 
+import com.example.chess.Game.Color;
 import com.example.chess.Game.Player;
 import com.example.chess.Game.Type;
 
@@ -7,19 +8,19 @@ public abstract class Piece {
     private int x, y;
     private Player player;
     private boolean available;
+    private Color color;
 
     /**
      * Constructor for Piece
      *
      * @param x      location x of Piece
      * @param y      location y of Piece
-     * @param player the Player object associated witch the Piece
      */
 
-    public Piece(int x, int y, Player player) {
+    public Piece(int x, int y, Color color) {
         this.x = x;
         this.y = y;
-        this.player = player;
+        this.color = color;
 
     }
 
