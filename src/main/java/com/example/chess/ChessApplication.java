@@ -63,4 +63,6 @@ public class ChessApplication {
             this.blaName = blaName;
         }
     }
+
+
 }

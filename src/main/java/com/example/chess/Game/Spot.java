@@ -33,4 +33,7 @@ public class Spot {
         return releasedPiece;
     }
 
+    void printSpotLocation() {
+        System.out.print(x + "," + y + "  ");
+    }
 }

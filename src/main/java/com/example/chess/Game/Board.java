@@ -1,9 +1,9 @@
 package com.example.chess.Game;
 
-public class Board {
+class Board {
     private Spot[][] spots = new Spot[8][8];
 
-    public Board() {
+    Board() {
         super();
         for (int i = 0; i < spots.length; i++) {
             for (int j = 0; j < spots.length; j++) {
@@ -12,8 +12,10 @@ public class Board {
         }
     }
 
-    public Spot getSpot(int x, int y) {
+    Spot getSpot(int x, int y) {
         return spots[x][y];
     }
+
+    Spot
 
 }
