@@ -7,7 +7,6 @@ import java.util.List;
 
 public class Player {
     public final int KNIGHT = 2;
-    List<Piece> figures;
     public final int KING = 1;
     public final int BISHOPS = 2;
     public final int ROOKS = 2;
