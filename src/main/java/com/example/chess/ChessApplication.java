@@ -17,7 +17,6 @@ package com.example.chess;
 // push:
 // git push origin HEAD:master
 
-import com.example.chess.Game.Color;
 import com.example.chess.Piece.Pawn;
 import com.example.chess.Piece.Piece;
 
@@ -33,11 +32,15 @@ import com.example.chess.Piece.Piece;
  *  * dodac sprawdzanie czy bije
  *  * wyswietlanie mapy
  *  * przyjmowanie komend
+ *
+ *  Wnioski:
+ *   1. duzo klas zalezy od siebie bez powodu
+ *   2. klasy robia wiele rzeczy naraz
  */
 public class ChessApplication {
     public static void main(String[] args) {
         final Piece piece = new Pawn(1, 1, null);
-        System.out.println(piece.getType().getIcon(Color.WHITE));
+//        System.out.println(piece.getType().getIcon(Color.WHITE));
 //        System.out.println("Hello world! ♚");
     }
 

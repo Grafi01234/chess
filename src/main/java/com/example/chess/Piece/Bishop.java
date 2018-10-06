@@ -16,8 +16,4 @@ public class Bishop extends Piece {
         return Type.BISHOP;
     }
 
-    @Override
-    public boolean isValidPath(int finalX, int finalY) {
-        return false;
-    }
 }

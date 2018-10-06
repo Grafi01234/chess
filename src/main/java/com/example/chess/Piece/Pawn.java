@@ -12,13 +12,4 @@ public class Pawn extends Piece {
         super(x, y, color);
         type = Type.PAWN;
     }
-
-    public Type getType() {
-        return Type.PAWN;
-    }
-
-    @Override
-    public boolean isValidPath(int finalX, int finalY) {
-        return false;
-    }
 }

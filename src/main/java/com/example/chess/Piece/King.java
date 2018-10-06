@@ -12,12 +12,4 @@ public class King extends Piece {
         type = Type.KING;
     }
 
-    public Type getType() {
-        return Type.KING;
-    }
-
-    @Override
-    public boolean isValidPath(int finalX, int finalY) {
-        return false;
-    }
 }

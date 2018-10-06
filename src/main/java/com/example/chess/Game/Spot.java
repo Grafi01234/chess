@@ -14,14 +14,14 @@ public class Spot {
         piece = null;
     }
 
-    public void occupySpot(Piece piece) {
-        //if piece already here, delete it, i. e. set it dead
-        // TODO: check if piece is of different color
-        if (this.piece != null)
-            this.piece.setAvailable(false);
-        //place piece here
-        this.piece = piece;
-    }
+//    public void occupySpot(Piece piece) {
+//        //if piece already here, delete it, i. e. set it dead
+//        // TODO: check if piece is of different color
+//        if (this.piece != null)
+//            this.piece.setAvailable(false);
+//        //place piece here
+//        this.piece = piece;
+//    }
 
     public boolean isOccupied() {
         return piece != null;

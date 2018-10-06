@@ -18,8 +18,4 @@ public class Queen extends Piece {
         return Type.QUEEN;
     }
 
-    @Override
-    public boolean isValidPath(int finalX, int finalY) {
-        return false;
-    }
 }

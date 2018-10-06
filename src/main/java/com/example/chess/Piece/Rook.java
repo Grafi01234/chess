@@ -17,8 +17,4 @@ public class Rook extends Piece {
         return Type.ROOK;
     }
 
-    @Override
-    public boolean isValidPath(int finalX, int finalY) {
-        return false;
-    }
 }

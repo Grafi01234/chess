@@ -5,12 +5,13 @@ package com.example.chess.Game;
  */
 
 public enum Type {
-    PAWN("P", "Z"),
-    KING("K", ""),
-    QUEEN("Q", ""),
-    KNIGHT("K", ""),
-    ROOK("", ""),
-    BISHOP("", "");
+    PAWN("U+2659", "U+265F"),
+    KING("U+2654", "U+265A"),
+    QUEEN("U+2655", "U+265B\t"),
+    KNIGHT("U+2658", "U+265E"),
+    ROOK("U+2656", "U+265C"),
+    BISHOP("U+2657", "U+265D"),
+    EMPTY("", "");
 
     private final String whiteIcon;
     private final String blackIcon;

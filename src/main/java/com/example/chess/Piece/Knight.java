@@ -16,9 +16,4 @@ public class Knight extends Piece {
     public Type getType() {
         return Type.KNIGHT;
     }
-
-    @Override
-    public boolean isValidPath(int finalX, int finalY) {
-        return false;
-    }
 }
