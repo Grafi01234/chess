@@ -5,13 +5,13 @@ package com.example.chess.Game;
  */
 
 public enum Type {
-    PAWN("U+2659", "U+265F"),
-    KING("U+2654", "U+265A"),
-    QUEEN("U+2655", "U+265B\t"),
-    KNIGHT("U+2658", "U+265E"),
-    ROOK("U+2656", "U+265C"),
-    BISHOP("U+2657", "U+265D"),
-    EMPTY("", "");
+    PAWN("\u2659", "\u265F"),
+    KING("\u2654", "\u265A"),
+    QUEEN("\u2655", "\u265B\t"),
+    KNIGHT("\u2658", "\u265E"),
+    ROOK("\u2656", "\u265C"),
+    BISHOP("\u2657", "\u265D"),
+    EMPTY(" ", " ");
 
     private final String whiteIcon;
     private final String blackIcon;
@@ -21,7 +21,12 @@ public enum Type {
         this.blackIcon = blackIcon;
     }
 
-    public String getIcon(Color color) {
-        return color == Color.WHITE ? whiteIcon : blackIcon;
+    public String getWhiteIcon() {
+        return whiteIcon;
     }
+
+    public String getBlackIcon() {
+        return blackIcon;
+    }
+
 }

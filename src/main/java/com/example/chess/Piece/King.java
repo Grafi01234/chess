@@ -8,7 +8,7 @@ public class King extends Piece {
     Type type;
 
     public King(int x, int y, Color color) {
-        super(x, y, color);
+        super(x, y);
         type = Type.KING;
     }
 
